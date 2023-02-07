@@ -123,7 +123,7 @@ int main(void)
 	POINT_COLOR=WHITE;     			//画笔颜色：白色
 	LCD_Clear(BLACK);
 	
-	LCD_ShowLine(1,"loading......");
+	LCD_ShowLine(1,"Loading......");//加载提示
 	
 	//挂载文件系统
 	retSD=f_mount(&SDFatFS,SDPath,1);
